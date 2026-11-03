@@ -12,14 +12,7 @@ and made the game's tech by **directing AI coding agents**. Most of that tech is
 
 <p align="center"><img src="images/meadow.jpg" width="900" alt="The slime in a flower meadow with rock spires and hoops behind"></p>
 
-<p align="center">
-  <img src="images/underwater.jpg" width="440" alt="Underwater: animated caustics on the rocks and a school of fish">
-  <img src="images/giant_tree.jpg" width="440" alt="The slime on a dirt path below a giant tree, with birds flocking">
-</p>
-<p align="center">
-  <img src="images/cave.jpg" width="440" alt="Inside a blue-lit cave">
-  <img src="images/terrain_path.jpg" width="440" alt="A worn dirt path through grass along a cliff">
-</p>
+<table><tr><td width="50%"><img src="images/underwater.jpg" width="100%" alt="Underwater: animated caustics on the rocks and a school of fish"></td><td width="50%"><img src="images/giant_tree.jpg" width="100%" alt="The slime on a dirt path below a giant tree, with birds flocking"></td></tr><tr><td width="50%"><img src="images/cave.jpg" width="100%" alt="Inside a blue-lit cave"></td><td width="50%"><img src="images/terrain_path.jpg" width="100%" alt="A worn dirt path through grass along a cliff"></td></tr></table>
 <p align="center"><i>In-game captures. Top: the meadow (the counter in the corner reads 129 fps). Then the underwater reef with
 caustics and a fish school, a flock of birds under the giant tree, a cave, and a terrain path.</i></p>
 
