@@ -4,8 +4,13 @@ A Roblox game where you play a squishy slime ball rolling, bouncing and swimming
 flower meadows, giant trees, rock spires, caves, and an underwater reef full of fish. The aim was to bring **film
 VFX environment quality to a platform that runs on phones**.
 
-I'm a VFX artist. I built the world myself (sculpted, textured and dressed in ZBrush, Substance, Maya and Houdini)
-and made the game's tech by **directing AI coding agents**. Most of that tech is the
+https://github.com/user-attachments/assets/7b58aaf7-c301-411f-8713-f3a0fc572643
+
+<p align="center"><i>Diving in: the custom water surface, animated caustics on the rocks, and a fish school passing.
+The counter at the top of each clip is the in-game FPS overlay (desktop capture, 1440p).</i></p>
+
+I'm a VFX artist. I built the world myself: I modeled in Maya, sculpted in ZBrush, textured in Substance,
+scattered inside Roblox, and used Houdini for collision creation. I made the game's tech by **directing AI coding agents**. Most of that tech is the
 [Roblox Studio tools](https://github.com/jlipstock/roblox-studio-tools) I built for it.
 
 > The source is private. This page describes the game and how it was made.
@@ -28,13 +33,31 @@ caustics and a fish school, a flock of birds under the giant tree, a cave, and a
 - **Performance tooling**: an in-game FPS overlay for phones and stutter diagnostics, used to hold 60 fps on real
   devices.
 
+## In motion
+
+**Dressing: flower fields.** Scattered flowers and grass that react as the slime rolls through them.
+
+https://github.com/user-attachments/assets/c16773ab-44e2-4442-9a58-04eab625d7b2
+
+**Life: the reef.** Several fish species schooling and steering around the player.
+
+https://github.com/user-attachments/assets/64f909ea-a1c2-4a45-a753-33218e587606
+
+**Atmosphere: colour zones.** The grade shifts from daylight to blue on the way into the cave.
+
+https://github.com/user-attachments/assets/a7865bd6-5de2-49be-b674-ee530ae4b53d
+
+**Meadow to shoreline.** Grass, flowers and paths running down to the water.
+
+https://github.com/user-attachments/assets/0da66a36-7419-466e-ade0-b19304bcf653
+
 ## The art
 
-<p align="center"><img src="images/zbrush_rock.jpg" width="300" alt="A rock spire sculpted in ZBrush"></p>
-<p align="center"><i>One of the rock spires, sculpted in ZBrush before texturing and baking down for Roblox.</i></p>
+<p align="center"><img src="images/zbrush_rock.jpg" width="300" alt="A rock cliff asset sculpted in ZBrush"></p>
+<p align="center"><i>One of the rock cliff assets, sculpted in ZBrush before texturing and baking down for Roblox.</i></p>
 
-The environment came out of a full VFX pipeline: ZBrush sculpts, Substance textures, Maya layout and Houdini,
-plus Marmoset and Nuke. Everything was then baked down to fit Roblox's
+The environment came out of a full VFX pipeline: Maya models, ZBrush sculpts, Substance textures and Houdini
+collision, plus Marmoset and Nuke. Everything was then baked down to fit Roblox's
 mesh, texture and part budgets.
 
 ## Tech
